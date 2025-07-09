@@ -4,7 +4,7 @@ import express from "express"
 import fs from "fs"
 import zlib from "zlib"
 
-//Streams allow you to read data from a source or write data to a destination in a continuous flow. 
+// Streams allow you to read data from a source or write data to a destination in a continuous flow. 
 // They are particularly useful for handling large amounts of data, such as files etc.
 
 //put data chunks in buffer and also send it to the browser at the same time!
