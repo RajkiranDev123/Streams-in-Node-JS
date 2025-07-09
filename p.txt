@@ -1,0 +1,7 @@
+ npm init -y 
+
+ npm i express
+
+ npm install --save-dev nodemon
+
+ npm i dotenv
