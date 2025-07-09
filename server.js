@@ -4,7 +4,7 @@ import express from "express"
 import fs from "fs"
 import zlib from "zlib"
 
-// Streams allow you to read data from a source or write data to a destination in a continuous flow. 
+// Streams allow you to (read data from a source) or (write data to a destination) in a (continuous flow) 
 // They are particularly useful for handling large amounts of data, such as files etc.
 
 //put data chunks in buffer and also send it to the browser at the same time!
@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
         //res.status(200).json(data)
         //res.end(data) //end:Ends the response process without sending any data (or just a string if provided).
         res.send(data)//Sends a response with any type of data — string, buffer, object, or array.
-        // problem :send after loading the data in server memory
+        // problem :send after loading the data in server memory(ram)
     })
 })
 
